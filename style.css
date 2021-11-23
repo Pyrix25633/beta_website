@@ -1,0 +1,43 @@
+.pyrix25633-round-img {
+    border-radius: 10%;
+}
+.pyrix25633-navbar {
+    background-color: #1886c9;
+    color: #031e3b;
+}
+.pyrix25633-head-banner {
+    background-color: black;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-image: url('./src/img/blocks.png');
+    background-size: cover;
+    background-position: center;
+}
+.pyrix25633-blocks-text {
+    color: ghostwhite;
+}
+.pyrix25633-black {
+    color: black;
+}
+.pyrix25633-red {
+    color: red;
+}
+.pyrix25633-container-dark {
+    background-color: #031e3b;
+    color: #EEEEEE;
+}
+.pyrix25633-row-200 {
+    height: 400px;
+}
+@media screen and (min-width: 768px) {
+    .pyrix25633-head-banner {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+        background-image: url('./src/img/blocks2.png');
+    }
+    @media screen and (min-width: 992px){
+        .pyrix25633-row-200 {
+            height: 200px;
+        }
+    }
+}
