@@ -1,10 +1,7 @@
 .pyrix25633-round-img {
-    border-radius: 10%;
+    border-radius: 10px;
 }
-.pyrix25633-navbar {
-    background-color: #1886c9;
-    color: #031e3b;
-}
+
 .pyrix25633-head-banner {
     background-color: black;
     padding-top: 8rem;
@@ -13,31 +10,67 @@
     background-size: cover;
     background-position: center;
 }
+
 .pyrix25633-blocks-text {
     color: ghostwhite;
 }
+
 .pyrix25633-black {
     color: black;
 }
+.pyrix25633-black-border {
+    border-color: black!important;
+}
+.pyrix25633-black-background {
+    background-color: black;
+    color: ghostwhite;
+}
 .pyrix25633-red {
     color: red;
+}
+.pyrix25633-red-border {
+    border-color: #ff0000!important;
+}
+.pyrix25633-red-background {
+    background-color: red;
+    color: ghostwhite;
 }
 .pyrix25633-container-dark {
     background-color: #031e3b;
     color: #EEEEEE;
 }
+.pyrix25633-container-light {
+    background-color: #1886c9;
+    color: #031e3b;
+}
+
 .pyrix25633-row-200 {
     height: 400px;
 }
-@media screen and (min-width: 768px) {
-    .pyrix25633-head-banner {
-        padding-top: 12rem;
-        padding-bottom: 12rem;
-        background-image: url('./src/img/blocks2.png');
+.pyrix25633-row-100 {
+    height: 200px;
+}
+.pyrix25633-header-spacing {
+    height: 100px;
+}
+
+@media screen and (min-width: 348px) {
+    .pyrix25633-header-spacing {
+        height: 60px;
     }
-    @media screen and (min-width: 992px){
-        .pyrix25633-row-200 {
-            height: 200px;
+    @media screen and (min-width: 768px) {
+        .pyrix25633-head-banner {
+            padding-top: 12rem;
+            padding-bottom: 12rem;
+            background-image: url('./src/img/blocks2.png');
+        }
+        @media screen and (min-width: 992px){
+            .pyrix25633-row-200 {
+                height: 200px;
+            }
+            .pyrix25633-row-100 {
+                height: 100px;
+            }
         }
     }
 }
