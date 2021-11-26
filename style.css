@@ -29,10 +29,61 @@
     color: red;
 }
 .pyrix25633-red-border {
-    border-color: #ff0000!important;
+    border-color: red!important;
 }
 .pyrix25633-red-background {
     background-color: red;
+    color: ghostwhite;
+}
+.pyrix25633-purple {
+    color: purple;
+}
+.pyrix25633-purple-border {
+    border-color: purple!important;
+}
+.pyrix25633-purple-background {
+    background-color: purple;
+    color: ghostwhite;
+}
+.pyrix25633-brown {
+    color: rgb(117, 67, 9);
+}
+.pyrix25633-brown-border {
+    border-color: rgb(117, 67, 9)!important;
+}
+.pyrix25633-brown-background {
+    background-color: rgb(117, 67, 9);
+    color: ghostwhite;
+}
+.pyrix25633-orange {
+    color: orange;
+}
+.pyrix25633-orange-border {
+    border-color: orange!important;
+}
+.pyrix25633-orange-background {
+    background-color: orange;
+    color: ghostwhite;
+}
+.pyrix25633-yellow {
+    color: yellow;
+}
+.pyrix25633-yellow-border {
+    border-color: yellow!important;
+}
+.pyrix25633-yellow-background {
+    background-color: yellow;
+    color: ghostwhite;
+}
+.pyrix25633-lime {
+    color: 
+    lime;
+}
+.pyrix25633-lime-border {
+    border-color: lime!important;
+}
+.pyrix25633-lime-background {
+    background-color: lime;
     color: ghostwhite;
 }
 .pyrix25633-container-dark {
@@ -44,6 +95,9 @@
     color: #031e3b;
 }
 
+.pyrix25633-row-400 {
+    height: 800px;
+}
 .pyrix25633-row-200 {
     height: 400px;
 }
@@ -65,6 +119,9 @@
             background-image: url('./src/img/blocks2.png');
         }
         @media screen and (min-width: 992px){
+            .pyrix25633-row-400 {
+                height: 400px;
+            }
             .pyrix25633-row-200 {
                 height: 200px;
             }
