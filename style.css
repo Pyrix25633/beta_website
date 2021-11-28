@@ -112,8 +112,8 @@
 .pyrix25633-row-200 {
     height: 400px;
 }
-.pyrix25633-row-100 {
-    height: 200px;
+.pyrix25633-row-footer {
+    height: 100px;
 }
 .pyrix25633-header-spacing {
     height: 100px;
@@ -136,8 +136,8 @@
             .pyrix25633-row-200 {
                 height: 200px;
             }
-            .pyrix25633-row-100 {
-                height: 100px;
+            .pyrix25633-row-footer {
+                height: 50px;
             }
         }
     }
